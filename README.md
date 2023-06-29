@@ -9,17 +9,17 @@ Follow the steps below to test the target function using libAFL:
 
 Clone the repository:
 ```shell
-    git clone https://github.com/your-username/repository.git
+git clone https://github.com/your-username/repository.git
   ```
 
 Change to the repository directory:
 ```shell
-    cd repository
+cd repository
   ```
 
 Build the project:
 ```shell
-    cargo build --release
+cargo build --release
   ```    
 
 Prepare the input file for libAFL:
@@ -28,13 +28,14 @@ Create an input file with the desired input for testing. For example, you can cr
 
 Run the target function using libAFL:
 ```shell
-    libafl-fuzz -i input.txt -o findings target/release/repository
+libafl-fuzz -i input.txt -o findings target/release/repository
   ```
 Replace input.txt with the path to your input file and target/release/repository with the path to the compiled target binary.
 
 Monitor the fuzzing process:
 
-    libAFL will start fuzzing the target function with different inputs, including the ones in your input file. Monitor the process and check the findings directory for any discovered issues.
+libAFL will start fuzzing the target function with different inputs, including the ones in your input file. Monitor the process and check the findings directory for any discovered issues.
+
 ## Additional Notes
 
 * The provided code snippet is a simplified example for demonstration purposes. Adjustments may be required based on your specific use case.
