@@ -24,7 +24,7 @@ cargo build --release
 
 Prepare the input file for libAFL:
 
-Create an input file with the desired input for testing. For example, you can create a file called input.txt and add the input hello, world to it.
+  Create an input file with the desired input for testing. For example, you can create a file called input.txt and add the input hello, world to it.
 
 Run the target function using libAFL:
 ```shell
