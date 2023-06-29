@@ -9,7 +9,7 @@ Follow the steps below to test the target function using libAFL:
 
 Clone the repository:
 ```shell
-git clone https://github.com/your-username/repository.git
+git clone https://github.com/HakaKali/libAFL.git
   ```
 
 Change to the repository directory:
