@@ -40,7 +40,7 @@ libAFL will start fuzzing the target function with different inputs, including t
 
 * The provided code snippet is a simplified example for demonstration purposes. Adjustments may be required based on your specific use case.
 * Ensure that libAFL is correctly installed and configured prior to running the fuzzing process. Consult the libAFL documentation for installation instructions and further information
-* 
+
 ## License
 
 This project is licensed under the [MIT License](link-to-license-file). Feel free to use, modify, and distribute the code in accordance with the license terms.
