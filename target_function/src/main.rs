@@ -16,3 +16,5 @@ fn main() {
     // Call the target function with the input
     target_function(input);
 }
+
+//Input: "hello, world", Result: HELLO, WORLD
