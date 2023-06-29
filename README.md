@@ -44,3 +44,6 @@ libAFL will start fuzzing the target function with different inputs, including t
 ## License
 
 This project is licensed under the [MIT License](link-to-license-file). Feel free to use, modify, and distribute the code in accordance with the license terms.
+
+## Contact
+For any questions or inquiries, please contact [Email me](mailto:your-email@example.com).
