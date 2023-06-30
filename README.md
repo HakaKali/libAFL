@@ -28,7 +28,7 @@ Prepare the input file for libAFL:
 
 2. Run the target function using libAFL:
 ```shell
-libafl-fuzz -i input.txt -o findings target/release/repository
+cargo afl fuzz -i afl_input -o afl_output target/release/target_function
   ```
 Replace input.txt with the path to your input file and target/release/repository with the path to the compiled target binary.
 
