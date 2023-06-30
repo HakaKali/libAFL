@@ -1,8 +1,20 @@
-# Target Function
-
+# Tic Tac Toe Game using libAFL
+This is a simple implementation of the Tic Tac Toe game written in Rust, and it is being fuzzed using [libAFL](https://github.com/AFLplusplus/libAFL) (American Fuzzy Lop - A fuzzer).
 
 ## Description
 This repository provides an example code snippet for testing a target function using libAFL. The target function takes a byte slice as input, converts it to a UTF-8 string, converts the resulting string to uppercase, and then prints the original input and the uppercase result.
+
+## Fuzzing with libAFL
+The Tic Tac Toe game is being fuzzed using libAFL, which is a popular fuzzing engine for finding bugs and vulnerabilities in software applications. In this case, the fuzzing process is generating random inputs and feeding them to the game to explore different execution paths and identify potential issues
+
+## Fuzzing Configuration
+* Seed Inputs: Three seed inputs have been provided to the fuzzer to start the exploration process.
+* Execution Timeout: The execution timeout for each input is set to 20 milliseconds (exec_timeout: 20).
+* Fuzzing Metrics:
+    Total Cycles Done: 0
+    Corpus Count: 101
+    Saved Crashes: 0
+    Saved Hangs: 31
 
 ## Usage
 Follow the steps below to test the target function using libAFL:
